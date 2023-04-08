@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Каталог</title>
+</head>
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="scroll-to-top"><span></span></div>
+            <section class="header__main-menu">
+                <div class="header__main-menu-container">
+                    <div class="header__logo-box">
+                        <a class="header__logo-box-link" href="index.html"></a>
+                    </div>
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item header__menu-item--inner-list">
+                        Каталог
+                            <ul class="header__menu-inner-list">
+                                <li><a class="header__menu-inner-item" href="catalog.html">Плинтусы</a></li>
+                                <li><a class="header__menu-inner-item" href="#">Профиль</a></li>
+                                <li><a class="header__menu-inner-item" href="#">Фурнитура</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item"><a href="services.html">Услуги</a></li>
+                        <li class="header__menu-item"><a href="keyses.html">Примеры работ</a></li>
+                        <li class="header__menu-item"><a href="about.html">О нас</a></li>
+                        <li class="header__menu-item"><a href="delivery.html">Доставка и оплата</a></li>
+                    </ul>
+                    <div class="header__contants">
+                        <a class="header__phone-number" href="tel:+79513717336">+7 (951) 371-73-36</a>
+                        <ul class="header__social-buttons">
+                            <li class="header__social-item"><a class="header__social-item-link header__social-item-link--wa" href="https://api.whatsapp.com/send?phone=79513717336&text="></a></li>
+                            <li class="header__social-item"><a class="header__social-item-link header__social-item-link--vk" href="https://vk.com/heavyblack_studio"></a></li>
+                            <li class="header__social-item"><a class="header__social-item-link header__social-item-link--inst" href="https://www.instagram.com/heavyblack_studio"></a></li>
+                        </ul>
+                    </div>
+                    <button class="button-burger" id="burger"></button>
+                   
+                    <section class="header__main-menu-mobile">
+                        <div class="header__head-mobile">
+                            <div class="header__logo-mobile"></div>
+                            <button class="button-cross-mobile" id="close-menu"></button>
+                        </div>
+                        <ul class="header__menu-list-mobile">
+                            <li class="header__menu-item-mobile header__menu-item-mobile--inner-list">
+                            Каталог
+                                <ul class="header__menu-inner-list-mobile">
+                                    <li><a class="header__menu-inner-item-mobile" href="catalog.html">Плинтусы</a></li>
+                                    <li><a class="header__menu-inner-item-mobile" href="#">Профиль</a></li>
+                                    <li><a class="header__menu-inner-item-mobile" href="#">Фурнитура</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item-mobile"><a href="services.html">Услуги</a></li>
+                            <li class="header__menu-item-mobile"><a href="keyses.html">Примеры работ</a></li>
+                            <li class="header__menu-item-mobile"><a href="about.html">О нас</a></li>
+                            <li class="header__menu-item-mobile"><a href="delivery.html">Доставка и оплата</a></li>
+                        </ul>
+                        <div class="header__menu-contacts-mobile">
+                            <a class="header__phone-number-mobile" href="tel:+79513717336">+7 (951) 371-73-36</a>
+                            <ul class="header__social-buttons-mobile">
+                                <li class="header__social-item-mobile"><a class="header__social-item-link-mobile header__social-item-link--wa" href="https://api.whatsapp.com/send?phone=79513717336&text="></a></li>
+                                <li class="header__social-item-mobile"><a class="header__social-item-link-mobile header__social-item-link--vk" href="https://vk.com/heavyblack_studio"></a></li>
+                                <li class="header__social-item-mobile"><a class="header__social-item-link-mobile header__social-item-link--inst" href="https://www.instagram.com/heavyblack_studio"></a></li>
+                            </ul>
+                        </div>                      
+                    </section>
+                </div>
+            </section>
+
+            <section class="header__hero-block-inner header_plinth">
+                <div class="container">
+                    <ul class="header_brad-crambs">
+                        <li class="header_brad-crambs-item"><a href="index.html">Главная</a></li>
+                        <li class="header_brad-crambs-item">Плинтусы</li>
+                    </ul>
+                    <h1 class="header__title main-title text-title-large-bold">Плинтусы</h1>
+                </div>
+            </section>
+            
+        </header>
+
+        <main class="main">
+
+            <section class="filters">
+                <div class="container filters__container">
+                    <form action="" class="filters__block">
+                        <label><input name="material" type="radio" value="all" checked><div class="filters__button">Все материалы</div></label>
+                        <label><input name="material" type="radio" value="aluminum"><div class="filters__button">Алюминий</div></label>
+                        <label><input name="material" type="radio" value="steel"><div class="filters__button">Нержавеющая сталь</div></label>
+                    </form>
+                    <form action="" class="filters__block filters__form">
+                        <label><input name="form" type="radio" value="L" checked><div class="filters__button filters__button-L">L-образный</div></label>
+                        <label><input name="form" type="radio" value="П"><div class="filters__button filters__button-P">П-образный</div></label>
+                        <label><input name="form" type="radio" value="Г"><div class="filters__button filters__button-G">Г-образный</div></label>
+                    </form>
+                </div>
+            </section>
+
+            <section class="catalog">
+                <div class="container">
+                    <ul class="catalog__list">
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__design-uniq anim">
+                            <p class="catalog__design-uniq-topline text-title-small">Не нашли подходящий дизайн?</p>
+                            <p class="catalog__design-uniq-bittomline text-title-small">Можем изготовить плинтус по вашему эскизу из стали или латуни</p>
+                            <button class="catalog__design-uniq-button button open-modal">Связать с менеджером <img class="button-icon" src="img/schevron-right.svg"></button>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                        <li class="catalog__item anim">
+                            <a href="card.html">
+                                <img class="catalog__item-img" src="img/plinth.png" alt="plinth">
+                                <a class="catalog__item-title text-body-large" href="#">Плинтус из нержавеющей стали под гипсокартон 2,5 м</a>
+                                <div class="catalog__item-price text-title-small">от 1 499₽ / шт.</div>
+                                <div class="catalog__item-type text-body-small"><span>Тип:</span><p>Плинтус под гипсокартон</p></div>
+                                <div class="catalog__item-height text-body-small"><span>Высота, мм:</span><p>45, 60, 80, 100, 120, 150</p></div>
+                                <div class="catalog__item-width text-body-small"><span>Ширина, мм:</span><p>10, 13, 14</p></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="catalog__button-block">
+                        <button class="catalog__button button-outline">Загрузить еще</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <section class="footer-form">
+                <div class="footer-form__hover-block text-title-large-bold">Заказать звонок специалиста</div>
+                <div class="footer-form_container">
+                    <div class="container">
+                        <h2 class="footer-form__title form-title text-title-large-bold">Оставьте заявку</h2>
+                        <form class="_form" action="form.php">
+                            <div class="footer-form__input-line">
+                                <input class="footer-form__input-text input-text" type="text" placeholder="Ваше имя" name="name" required >
+                                <input class="footer-form__input-text input-text _masked" type="tel" placeholder="Ваше телефон" name="phone" required >
+                                <button class="footer-form__button button-form" type="submit">Оставить заявку</button>
+                            </div>
+                            <div class="footer-form__checkbox">
+                                
+                                <label for="checkbox" class="checkbox text-body-small">
+                                    <input class="checkbox-input" type="checkbox" name="checkbox" id="checkbox" required>
+                                    Даю согласие на обработку моих персональных данных
+                                    <span class="checkbox-box"></span>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer-block">
+                <div class="container">
+                    <div class="footer-block__menu">
+                        <div class="footer-block__logo-box"><a class="footer__logo-box-link" href="#"></a></div>
+                        <ul class="footer-block__menu-list">
+                            <li class="footer-block__menu-item footer-block__menu-item--inner-list">
+                            Каталог
+                                <ul class="footer-block__menu-inner-list">
+                                    <li><a class="footer-block__menu-inner-item" href="catalog.html">Плинтусы</a></li>
+                                    <li><a class="footer-block__menu-inner-item" href="#">Профиль</a></li>
+                                    <li><a class="footer-block__menu-inner-item" href="#">Фурнитура</a></li>
+                                </ul>
+                            </li>
+                            <li class="footer-block__menu-item"><a href="services.html">Услуги</a></li>
+                            <li class="footer-block__menu-item"><a href="keyses.html">Примеры работ</a></li>
+                            <li class="footer-block__menu-item"><a href="about.html">О нас</a></li>
+                            <li class="footer-block__menu-item"><a href="delivery.html">Доставка и оплата</a></li>
+                        </ul>
+                        <div class="footer-block__contants">
+                            <ul class="footer-block__social-buttons">
+                                <li class="footer-block__social-item"><a class="footer-block__social-item-link footer-block__social-item-link--wa" href="https://api.whatsapp.com/send?phone=79513717336&text="></a></li>
+                                <li class="footer-block__social-item"><a class="footer-block__social-item-link footer-block__social-item-link--vk" href="https://vk.com/heavyblack_studio"></a></li>
+                                <li class="footer-block__social-item"><a class="footer-block__social-item-link footer-block__social-item-link--inst" href="https://www.instagram.com/heavyblack_studio"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__phone-block">
+                        <a class="footer__phone-number text-title-large-bold" href="tel:+79513717336">+7 (951) 371-73-36</a>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+        <!-- Modal -->
+
+        <section class="modal__block modal__mini-block invisible">
+            <div class="modal__box anim">
+                <div class="modal__header">
+                    <h2 class="modal__header-title text-title-large">Вызов специалиста</h2>
+                    <button class="modal__header-cross-btn"></button>
+                </div>
+                <p class="modal__description text-body-middle">Наш менеджер свяжется с вами в ближайшее время и проконсультирует по услугам</p>
+                <form class="modal__form _form" action="form.php">
+                    <div class="modal__form-input-block">
+                        <input type="text" class="modal__form-input-text input-text" name="name" placeholder="Ваше имя" required>
+                        <input type="text" class="modal__form-input-text input-text _masked" name="phone" placeholder="Ваше телефон" required>
+                    </div>
+                    <div class="modal__form-button-block">
+                        <button type="submit" class="modal__form-button button">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div> 
+    <script src="js/modal.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animation.js"></script> 
+    <script src="js/imask.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

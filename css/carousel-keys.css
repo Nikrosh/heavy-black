@@ -1,0 +1,75 @@
+/* photo-keys */
+
+.photo-keys {
+    padding-bottom: 32px;
+}
+
+.photo-keys .owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-dots  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    background-color: var(--frame-bg);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition: all 0.6s;
+}
+
+.owl-carousel .owl-dots button.owl-dot:hover {
+    background-color: var(--input-color);
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background-color: var(--blue);
+}
+
+.owl-carousel .owl-dots button.owl-dot:last-child {
+    margin-right: 0px;
+}
+
+.owl-carousel .owl-nav {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    top: calc(50% - 44px);
+    z-index: 99;
+}
+
+.photo-keys .owl-carousel .owl-nav button.owl-prev,
+.photo-keys .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.photo-keys .owl-carousel .owl-nav button.owl-prev {
+    top: 0;
+    left: -56px;
+    background-image: url(../img/big-arrow-left.svg);
+}
+
+.photo-keys .owl-carousel .owl-nav button.owl-next {
+    top: 0;
+    right: -56px;
+    background-image: url(../img/big-arrow-right.svg);
+}
+
+
+.photo-keys .owl-carousel .owl-nav button.owl-prev span,
+.photo-keys .owl-carousel .owl-nav button.owl-next span {
+    display: none;
+}
